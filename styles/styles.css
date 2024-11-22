@@ -1,0 +1,50 @@
+.row {
+    width: 63%;
+    margin: 0px auto;
+    display: block;
+}
+
+.main-head {
+    font-size: 40px;
+    text-align: center;
+    font-family: bahnschrift;
+    margin-top: 20px;
+    border-bottom: 5px solid #16DB65;
+    padding-bottom: 5px;
+}
+.img {
+    display: block;
+    height: 300px;
+    margin: 20px auto;
+    border: 5px solid #16DB65;
+    border-radius: 15%;
+}
+.img:hover {
+    border: 5px solid #55e890;
+    transition: 0.3s;
+}
+.button-1 {
+    text-decoration: none;
+    font-size: 30px;
+    margin: 20px auto;
+    display: block;
+    color: #000;
+    text-align: center;
+    font-family: bahnschrift;
+    background-color: #16DB65;
+    width: 160px;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.button-1:hover {
+    background-color: #5bef96;
+    transition: 0.3s;
+}
+.text {
+    font-size: 22px;
+    font-family: bahnschrift;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    }
