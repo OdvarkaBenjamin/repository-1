@@ -9,19 +9,20 @@
     text-align: center;
     font-family: bahnschrift;
     margin-top: 20px;
-    border-bottom: 5px solid #16DB65;
+    border-bottom: 3px solid #00aa44;
     padding-bottom: 5px;
 }
 .img {
     display: block;
-    height: 300px;
+    width: 500px;
     margin: 20px auto;
-    border: 5px solid #16DB65;
-    border-radius: 15%;
+    border: 5px solid #00aa44;
+    border-radius: 30px;
 }
 .img:hover {
-    border: 5px solid #55e890;
+    border: 5px solid #f70000;
     transition: 0.3s;
+    
 }
 .button-1 {
     text-decoration: none;
@@ -41,10 +42,19 @@
     background-color: #5bef96;
     transition: 0.3s;
 }
+.sekce {
+    border: 5px solid #00aa44;
+    border-radius: 30px;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #deffd6;
+    
+}
 .text {
-    font-size: 22px;
+    font-size: 16px;
     font-family: bahnschrift;
     margin-top: 20px;
     margin-bottom: 30px;
-    text-align: left;
-    }
+    text-align: center;
+}
+
